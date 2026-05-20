@@ -1,0 +1,60 @@
+# ========= 操作系统生成的文件 =========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========= 编辑器配置 =========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ========= 日志 / 临时文件 =========
+*.log
+*.tmp
+*.bak
+*.cache
+.npm/
+
+# ========= 备份 / 历史版本 =========
+*_old.html
+*_backup.html
+*_v1.html
+*_v2.html
+*_v3.html
+*_v4.html
+*_v5.html
+直男翻译官_v*.html
+backup/
+old/
+draft/
+
+# ========= 依赖 =========
+node_modules/
+package-lock.json
+
+# ========= 本地测试文件 =========
+test/
+demo/
+*.test.html
+sandbox/
+
+# ========= 敏感信息（防止泄漏） =========
+.env
+.env.local
+config.local.js
+secrets.txt
+*_private*
+
+# ========= 编译产物 =========
+dist/
+build/
+*.min.js.map
