@@ -1,0 +1,70 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="paperShadow" x="40" y="28" width="1120" height="574" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#1A1A1A" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="1" flood-color="#FFFFFF" flood-opacity="0.6"/>
+    </filter>
+    <pattern id="ticketDots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#2D4A3E" opacity="0.12"/>
+    </pattern>
+    <style>
+      .serif { font-family: "Noto Serif SC", "Source Han Serif SC", "Microsoft YaHei", serif; }
+      .sans { font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+      .playfair { font-family: "Playfair Display", Georgia, serif; font-style: italic; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="#FAF6F0"/>
+  <rect width="1200" height="630" fill="url(#ticketDots)"/>
+  <path d="M70 132C177 68 316 55 420 94C493 121 537 173 613 165C704 156 735 75 842 67C956 59 1069 138 1138 240" stroke="#FF6B35" stroke-width="2" stroke-dasharray="9 14" opacity="0.28"/>
+  <path d="M91 521C187 452 279 449 352 481C423 512 455 579 552 561C642 545 666 479 762 476C871 473 963 556 1083 506" stroke="#2D4A3E" stroke-width="2" stroke-dasharray="9 14" opacity="0.22"/>
+
+  <g filter="url(#paperShadow)">
+    <rect x="80" y="64" width="1040" height="502" rx="34" fill="#FFFDF8"/>
+  </g>
+  <circle cx="80" cy="196" r="18" fill="#FAF6F0"/>
+  <circle cx="1120" cy="196" r="18" fill="#FAF6F0"/>
+  <line x1="112" y1="196" x2="1088" y2="196" stroke="#F0E9DC" stroke-width="2" stroke-dasharray="10 11"/>
+
+  <text x="132" y="122" class="playfair" fill="#8B7E6E" font-size="19" letter-spacing="5">STRAIGHT GUY TRANSLATOR</text>
+  <text x="132" y="172" class="serif" fill="#1A1A1A" font-size="42" font-weight="900" letter-spacing="8">直 男 翻 译 官</text>
+  <rect x="786" y="103" width="238" height="52" rx="26" fill="#FF6B35"/>
+  <text x="905" y="137" text-anchor="middle" class="sans" fill="#FFFDF8" font-size="22" font-weight="700" letter-spacing="2">打开就能玩</text>
+
+  <text x="132" y="263" class="serif" fill="#1A1A1A" font-size="58" font-weight="900">
+    <tspan x="132" dy="0">9 题测出</tspan>
+    <tspan x="132" dy="68" fill="#FF6B35">他的浪漫段位</tspan>
+  </text>
+  <text x="136" y="364" class="sans" fill="#2D4A3E" font-size="25" font-weight="500" letter-spacing="1">情侣双人版 / 单人快测 / 30 秒看结果</text>
+
+  <g transform="translate(132 405)">
+    <rect x="0" y="0" width="146" height="46" rx="23" fill="#FAF6F0" stroke="#E8DDCF"/>
+    <text x="73" y="30" text-anchor="middle" class="sans" fill="#1A1A1A" font-size="18" font-weight="700">钢铁直男</text>
+    <rect x="166" y="0" width="146" height="46" rx="23" fill="#FAF6F0" stroke="#E8DDCF"/>
+    <text x="239" y="30" text-anchor="middle" class="sans" fill="#1A1A1A" font-size="18" font-weight="700">觉醒直男</text>
+    <rect x="332" y="0" width="146" height="46" rx="23" fill="#FAF6F0" stroke="#E8DDCF"/>
+    <text x="405" y="30" text-anchor="middle" class="sans" fill="#1A1A1A" font-size="18" font-weight="700">隐藏暖男</text>
+  </g>
+
+  <g transform="translate(760 233)">
+    <rect x="0" y="0" width="278" height="248" rx="28" fill="#FAF6F0" stroke="#E8DDCF"/>
+    <text x="32" y="52" class="playfair" fill="#8B7E6E" font-size="17" letter-spacing="4">REPORT NO. 009</text>
+    <text x="32" y="107" class="serif" fill="#1A1A1A" font-size="32" font-weight="900">他的段位</text>
+    <text x="32" y="169" class="serif" fill="#FF6B35" font-size="62" font-weight="900">?</text>
+    <text x="77" y="168" class="sans" fill="#1A1A1A" font-size="31" font-weight="700">/100</text>
+    <path d="M32 194H246" stroke="#2D4A3E" stroke-width="2" stroke-dasharray="7 9" opacity="0.34"/>
+    <text x="32" y="225" class="sans" fill="#2D4A3E" font-size="19" font-weight="700">先测一下，再决定怎么爱他</text>
+  </g>
+
+  <g transform="translate(132 487)">
+    <path d="M0 0H560" stroke="#F0E9DC" stroke-width="2"/>
+    <text x="0" y="40" class="serif" fill="#1A1A1A" font-size="23" font-weight="700">
+      <tspan>他不是不爱你，是把</tspan>
+      <tspan fill="#FF6B35">「我爱你」</tspan>
+      <tspan>说成了</tspan>
+      <tspan fill="#FF6B35">「多喝热水」</tspan>
+    </text>
+  </g>
+
+  <text x="1038" y="528" text-anchor="end" class="sans" fill="#8B7E6E" font-size="18" font-weight="500">shzzzayys.github.io/zhinan-test</text>
+</svg>
